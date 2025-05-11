@@ -1,22 +1,13 @@
 // Configuración de Firebase - REEMPLAZA ESTO con tu propia configuración de Firebase
 const firebaseConfig = {
-
   apiKey: "AIzaSyBXPUuQLZqEr8OeCo7B0yp6-2KgtBZ5uSQ",
-
   authDomain: "digitalizacionappnube-372ca.firebaseapp.com",
-
   projectId: "digitalizacionappnube-372ca",
-
   storageBucket: "digitalizacionappnube-372ca.firebasestorage.app",
-
   messagingSenderId: "632373123625",
-
   appId: "1:632373123625:web:e84d0061322825eb92da38",
-
   measurementId: "G-YFPNX5LM20"
-
 };
-
 
 // Inicializar Firebase
 firebase.initializeApp(firebaseConfig);
