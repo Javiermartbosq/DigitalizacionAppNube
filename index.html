@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList App con Firebase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tareas</h1>
+    <div class="add-task">
+      <input type="text" id="task-input" placeholder="Añadir nueva tarea...">
+      <button id="add-btn">Añadir</button>
+    </div>
+    <div class="task-list" id="task-list">
+      <!-- Las tareas se cargarán aquí dinámicamente -->
+      <div class="loading">Cargando tareas...</div>
+    </div>
+  </div>
+  <footer>
+    <p>TodoList App - Práctica "Tu App en la Nube: De local a global"</p>
+  </footer>
+
+  <!-- Firebase App (el núcleo de Firebase) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <!-- Firebase Firestore -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+  
+  <!-- Nuestro código -->
+  <script src="script.js"></script>
+</body>
+</html>
