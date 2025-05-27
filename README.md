@@ -43,6 +43,7 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
 
 ## Conexión con la base de datos (local y cloud)
 Para realizar la conexión de Firebase, se necesita acceder a la consola de Firebase con una cuenta de Firebase (https://console.firebase.google.com) y creamos un nuevo proyecto.
+
 En la sección "Firestore Database", creamos una nueva base de datos en el modo que necesitemos.
 Seguido, vamos a la configuración del proyecto, haciendo clic en el ícono de engranaje, Configuración del proyecto y despues a Tus Apps.
 Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento sript.js:
