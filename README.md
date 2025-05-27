@@ -5,6 +5,12 @@ Aplicación web de listado de tareas (ToDo List) desarrollada utilizando HTML, C
 <br>
 ## Características
 Permite añadir nuevas tareas, cambiar su estado a completadas y eliminarlas en caso de quererlo. Todo esto a través de una interfaz sencilla y responsiva.
+<ul>
+  <li>Añadir nuevas tareas</li>
+  <li>Visualizar la lista de tareas en tiempo real</li>
+  <li>Almacenamiento persistente usando Firebase Firestore</li>
+  <li>Interfaz sencilla y responsiva</li>
+</ul>
 <br>
 ## Tecnologías utilizadas
 ![ HTML](https://img.shields.io/badge/-HTML-%23e66100?style=flat&labelColor=%23ffffff&logo=html5)
