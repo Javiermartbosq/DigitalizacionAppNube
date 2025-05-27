@@ -35,7 +35,7 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
 
 ## Ejecutar el local
 <ol>
-  <li>Clona o descarga el repositorio con los archivos del     proyecto.</li>
+  <li>Clona o descarga el repositorio con los archivos del proyecto.</li>
   <li>Asegúrate de tener una conexión a internet (para cargar Firebase desde CDN).</li>
   <li>Abre el archivo index.html en tu navegador.</li>
   <li>En caso de querer usar una base de datos Firebase propia, asegúrate de configurar correctamente tu proyecto Firebase en el archivo script.js con tus propias credenciales de Firebase (API Key, projectId, etc.).</li>
@@ -46,6 +46,7 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
 <ol>
   <li>Para realizar la conexión de Firebase, accedemos a la consola de Firebase con una cuenta de Firebase y creamos un nuevo proyecto.</li>
   <li>En la sección "Firestore Database", creamos una nueva base de datos en el modo que necesitemos.</li>
+  <li>Vamos a la sección Reglas de nuestra base de datos y ponemos el siguiente código para permitir</li>
   <li>Seguido, vamos a la configuración del proyecto, haciendo clic en el ícono de engranaje, Configuración del proyecto y despues a Tus Apps.</li>
   <li>Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento script.js:</li>
 </ol>
@@ -63,6 +64,16 @@ const firebaseConfig = {
 </pre>
 
 Una vez hecho y hayamos guardado los cambios, nuestra base de datos estara conectada a nuestra aplicación.
+
+## Estructura de la tabla
+La aplicación hace uso de Firestone para almacenar las tareas. Cada documento dentro de la tabla Tareas tiene el siguiente formato:
+
+| Campo       | Tipo      | Descripción                          | Ejemplo                           |
+| ----------- | --------- | ------------------------------------ | --------------------------------- |
+| `title`     | string    | Título o descripción de la tarea     | `"hola"`                          |
+| `completed` | boolean   | Estado de la tarea (completada o no) | `false`                           |
+| `createdAt` | timestamp | Fecha de creación de la tarea        | `27 de mayo de 2025, 14:16 UTC+2` |
+
 
 ## Despliegue
 La aplicación ha sido desplegada en GitHub Pages. Para ello, se han subido los archivos del proyecto a un repositorio y se ha habilitadó GitHub Pages desde la rama principal o Main,, lo que permite el acceso a la aplicación desde un navegador.
