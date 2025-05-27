@@ -25,7 +25,6 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
   <li>Navegador web con soporte para JavaScript</li>
   <li>Achivos locales: index.html, styles.css, script.js</li>
 </ol>
-<br>
 
 ## URL Vista Web
 https://javiermartbosq.github.io/DigitalizacionAppNube/
