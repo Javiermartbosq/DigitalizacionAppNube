@@ -12,5 +12,5 @@ Permite añadir nuevas tareas, cambiar su estado a completadas y eliminarlas en 
 ![ JavaScript](https://img.shields.io/badge/-JavaScript-%23f6d32d?style=flat&labelColor=%235e5c64&logo=JavaScript)
 ![ FireBase](https://img.shields.io/badge/-FireBase-%23e01b24?style=flat&labelColor=%23f66151&logo=FireBase)
 <br>
-## URL
+## URL a la página web
 https://javiermartbosq.github.io/DigitalizacionAppNube/
