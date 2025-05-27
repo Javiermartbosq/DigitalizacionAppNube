@@ -33,7 +33,6 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
   <li>Achivos locales: index.html, styles.css, script.js</li>
 </ol>
 
-
 ## Ejecutar el local
 <ol>
   <li>Clona o descarga el repositorio con los archivos del     proyecto.</li>
@@ -41,6 +40,24 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
   <li>Abre el archivo index.html en tu navegador.</li>
   <li>En caso de querer usar una base de datos Firebase propia, asegúrate de configurar correctamente tu proyecto Firebase en el archivo script.js con tus propias credenciales de Firebase (API Key, projectId, etc.).</li>
 </ol>
+
+## Conexión con la base de datos (local y cloud)
+Para realizar la conexión de Firebase, se necesita acceder a la consola de Firebase con una cuenta de Firebase (https://console.firebase.google.com) y creamos un nuevo proyecto.
+En la sección "Firestore Database", creamos una nueva base de datos en el modo que necesitemos.
+Seguido, vamos a la configuración del proyecto, haciendo clic en el ícono de engranaje, Configuración del proyecto y despues a Tus Apps.
+Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento sript.js:
+
+const firebaseConfig = {
+  apiKey: "La key que tengas",
+  authDomain: "El nombre de tu proyecto.firebaseapp.com",
+  projectId: "Tu proyecto",
+  storageBucket: "Tu proyecyto.firebasestorage.app",
+  messagingSenderId: "XXXXXXXXXX",
+  appId: "XXXXXXXXXX",
+  measurementId: "XXXXXXXXXXX"
+};
+
+Una vez hecho y hayamos guardado los cambios, nuestra base de datos estara conectada a nuestra aplicación.
 
 ## Despliegue
 La aplicación ha sido desplegada en GitHub Pages. Para ello, se han subido los archivos del proyecto a un repositorio y se ha habilitadó GitHub Pages desde la rama principal o Main,, lo que permite el acceso a la aplicación desde un navegador.
