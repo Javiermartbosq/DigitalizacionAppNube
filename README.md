@@ -70,9 +70,9 @@ La aplicación hace uso de Firestone para almacenar las tareas. Cada documento d
 
 | Campo       | Tipo      | Descripción                          | Ejemplo                           |
 | ----------- | --------- | ------------------------------------ | --------------------------------- |
-| `title`     | string    | Título o descripción de la tarea     | `"hola"`                          |
+| `title`     | string    | Título o descripción de la tarea     | `"Ejemplo"`                       |
 | `completed` | boolean   | Estado de la tarea (completada o no) | `false`                           |
-| `createdAt` | timestamp | Fecha de creación de la tarea        | `27 de mayo de 2025, 14:16 UTC+2` |
+| `createdAt` | timestamp | Fecha de creación de la tarea        | `00 de XXXX de 0000, 00:00 UTC+2` |
 
 
 ## Despliegue
