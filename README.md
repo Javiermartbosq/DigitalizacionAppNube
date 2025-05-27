@@ -48,17 +48,16 @@ Seguido, vamos a la configuración del proyecto, haciendo clic en el ícono de e
 Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento sript.js:
 
 <pre>
-  ``` 
-  const firebaseConfig = {
-    apiKey: "La key que tengas",
-    authDomain: "El nombre de tu proyecto.firebaseapp.com",
-    projectId: "Tu proyecto",
-    storageBucket: "Tu proyecyto.firebasestorage.app",
-    messagingSenderId: "XXXXXXXXXX",
-    appId: "XXXXXXXXXX",
-    measurementId: "XXXXXXXXXXX"
-  };
-  ``` </pre>
+const firebaseConfig = {
+  apiKey: "La key que tengas",
+  authDomain: "El nombre de tu proyecto.firebaseapp.com",
+  projectId: "Tu proyecto",
+  storageBucket: "Tu proyecyto.firebasestorage.app",
+  messagingSenderId: "XXXXXXXXXX",
+  appId: "XXXXXXXXXX",
+  measurementId: "XXXXXXXXXXX"
+}; 
+</pre>
 
 Una vez hecho y hayamos guardado los cambios, nuestra base de datos estara conectada a nuestra aplicación.
 
