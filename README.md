@@ -21,7 +21,7 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
 ### Dependencias
 
 <ol>
-  <li>Firebase</li>
+  <li>Firebase Database</li>
   <li>Navegador web con soporte para JavaScript</li>
   <li>Achivos locales: index.html, styles.css, script.js</li>
 </ol>
