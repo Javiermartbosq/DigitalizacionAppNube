@@ -7,4 +7,4 @@ Aplicación web de listado de tareas (ToDo List) desarrollada utilizando HTML, C
 Permite añadir nuevas tareas, cambiar su estado a completadas y eliminarlas en caso de quererlo. Todo esto a través de una interfaz sencilla y responsiva.
 <br>
 ## Tecnologías utilizadas
-![ HTML](https://img.shields.io/badge/-HTML-%23e66100?style=flat&labelColor=%23ffffff&logo=html5) HTML
+![ HTML](https://img.shields.io/badge/-HTML-%23e66100?style=flat&labelColor=%23ffffff&logo=html5) - HTML
