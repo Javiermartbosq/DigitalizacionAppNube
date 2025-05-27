@@ -4,11 +4,11 @@
 Aplicación web de listado de tareas (ToDo List) desarrollada utilizando HTML, CSS y JavaScript que permite crear tareas, las cuales se almacenan en la nube utilizando Firebase Firestone.
 <br>
 ## Características
-Permite añadir nuevas tareas, cambiar su estado a completadas y eliminarlas en caso de quererlo. Todo esto a través de una interfaz sencilla y responsiva.
+Permite añadir nuevas tareas,  y eliminarlas en caso de quererlo. Todo esto a través de una interfaz sencilla y responsiva.
 <ul>
   <li>Añadir nuevas tareas</li>
-  <li>Visualizar la lista de tareas en tiempo real</li>
-  <li>Almacenamiento persistente usando Firebase Firestore</li>
+  <li>Cambiar su estado entre abiertas y completadas</li>
+  <li>Eliminar las tareas</li>
   <li>Interfaz sencilla y responsiva</li>
 </ul>
 
