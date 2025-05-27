@@ -1,5 +1,6 @@
 # TodoList App
-## Práctica "Tu App en la Nube: De local a global"
+Práctica "Tu App en la Nube: De local a global"
+<br>
 Aplicación web de listado de tareas (ToDo List) desarrollada utilizando HTML, CSS y JavaScript que permite crear tareas, las cuales se almacenan en la nube utilizando Firebase Firestone.
 <br>
 ## Características
