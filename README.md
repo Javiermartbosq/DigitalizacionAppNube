@@ -81,6 +81,18 @@ La aplicación hace uso de Firestone para almacenar las tareas. Cada documento d
     <td>Título o descripción de la tarea</td>
     <td>`"Ejemplo"`</td>
   </tr>
+  <tr>
+    <td>`completed`</td>
+    <td>Boolean</td>
+    <td>Estado de la tarea (completada o no)</td>
+    <td>`false`</td>
+  </tr>
+  <tr>
+    <td>`createdAt`</td>
+    <td>timestamp</td>
+    <td>Fecha de creación de la tarea</td>
+    <td>`00 de XXXX de 0000, 00:00 UTC+2`</td>
+  </tr>
 </table>
 
 | Campo       | Tipo      | Descripción                          | Ejemplo                           |
