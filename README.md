@@ -48,7 +48,7 @@ Seguido, vamos a la configuración del proyecto, haciendo clic en el ícono de e
 Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento sript.js:
 
 <pre>
-  ```const firebaseConfig = {
+  ``` const firebaseConfig = {
   apiKey: "La key que tengas",
   authDomain: "El nombre de tu proyecto.firebaseapp.com",
   projectId: "Tu proyecto",
