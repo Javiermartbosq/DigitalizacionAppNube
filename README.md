@@ -12,9 +12,9 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
 </ul>
 
 ## Tecnologías utilizadas
-![ HTML](https://img.shields.io/badge/-HTML-%23e66100?style=flat&labelColor=%23ffffff&logo=html5)
-![ CSS](https://img.shields.io/badge/-CSS-%231c71d8?style=flat&labelColor=%2399c1f1&logo=css)
-![ JavaScript](https://img.shields.io/badge/-JavaScript-%23f6d32d?style=flat&labelColor=%235e5c64&logo=JavaScript)
+![ HTML](https://img.shields.io/badge/-HTML-%23e66100?style=flat&labelColor=%23ffffff&logo=html5)<br>
+![ CSS](https://img.shields.io/badge/-CSS-%231c71d8?style=flat&labelColor=%2399c1f1&logo=css)<br>
+![ JavaScript](https://img.shields.io/badge/-JavaScript-%23f6d32d?style=flat&labelColor=%235e5c64&logo=JavaScript)<br>
 ![ FireBase](https://img.shields.io/badge/-FireBase-%23e01b24?style=flat&labelColor=%23f66151&logo=FireBase)
 <br>
 ## URL Vista Web
