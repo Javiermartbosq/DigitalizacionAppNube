@@ -19,7 +19,6 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
 <br>
 ## URL Vista Web
 https://javiermartbosq.github.io/DigitalizacionAppNube/
-<hr>
 
-### Licencia
+## Licencia
 Este proyecto ha sido realizado bajo la licencia de Creative Commons (CC).
