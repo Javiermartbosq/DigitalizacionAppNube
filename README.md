@@ -68,6 +68,21 @@ Una vez hecho y hayamos guardado los cambios, nuestra base de datos estara conec
 ## Estructura de la tabla
 La aplicación hace uso de Firestone para almacenar las tareas. Cada documento dentro de la tabla Tareas tiene el siguiente formato:
 
+<table>
+  <tr>
+    <th>Campo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+    <th>Ejemplo</th>
+  </tr>
+  <tr>
+    <td>`title`</td>
+    <td>String</td>
+    <td>Título o descripción de la tarea</td>
+    <td>`"Ejemplo"`</td>
+  </tr>
+</table>
+
 | Campo       | Tipo      | Descripción                          | Ejemplo                           |
 | ----------- | --------- | ------------------------------------ | --------------------------------- |
 | `title`     | string    | Título o descripción de la tarea     | `"Ejemplo"`                       |
