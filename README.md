@@ -47,7 +47,7 @@ Permite realizar una gestión sencilla de las tareas, todo esto a través de una
   <li>Para realizar la conexión de Firebase, se necesita acceder a la consola de Firebase con una cuenta de Firebase (https://console.firebase.google.com) y creamos un nuevo proyecto.</li>
   <li>En la sección "Firestore Database", creamos una nueva base de datos en el modo que necesitemos.</li>
   <li>Seguido, vamos a la configuración del proyecto, haciendo clic en el ícono de engranaje, Configuración del proyecto y despues a Tus Apps.</li>
-  <li>Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento sript.js:</li>
+  <li>Registramos una nueva aplicación web y copiamos la configuración de Firebase en el documento script.js:</li>
 </ol>
 
 <pre>
