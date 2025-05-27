@@ -37,5 +37,8 @@ https://javiermartbosq.github.io/DigitalizacionAppNube/
   <li>En caso de querer usar una base de datos Firebase propia, asegúrate de configurar correctamente tu proyecto Firebase en el archivo script.js con tus propias credenciales de Firebase (API Key, projectId, etc.).</li>
 </ol>
 
+## Despliegue
+La aplicación ha sido desplegada en GitHub Pages. Para ello, se han subido los archivos del proyecto a un repositorio y se ha habilitadó GitHub Pages desde la rama principal o Main,, lo que permite el acceso a la aplicación desde un navegador.
+
 ## Licencia
 Este proyecto ha sido realizado bajo la licencia de Creative Commons (CC).
