@@ -76,31 +76,24 @@ La aplicación hace uso de Firestone para almacenar las tareas. Cada documento d
     <th>Ejemplo</th>
   </tr>
   <tr>
-    <td>`title`</td>
+    <td>title</td>
     <td>String</td>
     <td>Título o descripción de la tarea</td>
-    <td>`"Ejemplo"`</td>
+    <td>"Ejemplo"</td>
   </tr>
   <tr>
-    <td>`completed`</td>
+    <td>completed</td>
     <td>Boolean</td>
     <td>Estado de la tarea (completada o no)</td>
-    <td>`false`</td>
+    <td>false</td>
   </tr>
   <tr>
-    <td>`createdAt`</td>
+    <td>createdAt</td>
     <td>timestamp</td>
     <td>Fecha de creación de la tarea</td>
-    <td>`00 de XXXX de 0000, 00:00 UTC+2`</td>
+    <td>00 de XXXX de 0000, 00:00 UTC+2</td>
   </tr>
 </table>
-
-| Campo       | Tipo      | Descripción                          | Ejemplo                           |
-| ----------- | --------- | ------------------------------------ | --------------------------------- |
-| `title`     | string    | Título o descripción de la tarea     | `"Ejemplo"`                       |
-| `completed` | boolean   | Estado de la tarea (completada o no) | `false`                           |
-| `createdAt` | timestamp | Fecha de creación de la tarea        | `00 de XXXX de 0000, 00:00 UTC+2` |
-
 
 ## Despliegue
 La aplicación ha sido desplegada en GitHub Pages. Para ello, se han subido los archivos del proyecto a un repositorio y se ha habilitadó GitHub Pages desde la rama principal o Main,, lo que permite el acceso a la aplicación desde un navegador.
